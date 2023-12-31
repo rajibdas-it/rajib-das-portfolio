@@ -7,7 +7,7 @@ const Navbar = () => {
           <img width={150} src={logo} alt="" />
         </div>
 
-        <nav className="flex gap-5">
+        <nav className="hidden lg:flex gap-5">
           <a
             href=""
             className="text-xl font-semibold hover:text-myRed transition-transform duration-200"
