@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import { TypeAnimation } from "react-type-animation";
+import img from "../assets/images/hero.png";
 
 import { FaFacebook, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 const Header = () => {
@@ -21,7 +22,7 @@ const Header = () => {
               />
             </span>
           </h1>
-          <h1 className="text-4xl lg:text-[4rem] font-montserrat font-bold">
+          <h1 className="text-4xl lg:text-[3em] font-montserrat font-bold">
             <TypeAnimation
               sequence={["Software Engineer", 2000, ""]}
               wrapper="span"
@@ -31,9 +32,14 @@ const Header = () => {
               cursor={false}
             />
           </h1>
-          <button className="btn bg-curiousBlue hover:bg-myRed transition-all duration-300 ">
+          <a
+            href="https://drive.google.com/file/d/1hss0OKKX9VURrHZYrxfjLs0Au3avDymG/view?usp=drive_link"
+            target="_blank"
+            rel="noreferrer"
+            className="btn bg-curiousBlue hover:bg-myRed transition-all duration-300 "
+          >
             Download CV
-          </button>
+          </a>
           <div className="flex flex-row gap-5 my-5">
             <a href="#">
               {" "}
@@ -59,8 +65,7 @@ const Header = () => {
           </div>
         </div>
         <div className="border border-myRed p-3 w-full md:w-1/2">
-          {" "}
-          Image Part
+          <img className="w-full lg:w-3/5 lg:h-[300px]" src={img} alt="" />
         </div>
       </div>
     </div>
