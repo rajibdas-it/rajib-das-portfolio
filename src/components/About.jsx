@@ -1,13 +1,15 @@
-import img1 from "../assets/images/rajib.jpeg";
+// import img1 from "../assets/images/rajib.jpeg";
+import img from "../assets/images/about.png";
+
 const About = () => {
   return (
     <div className="border border-myRed my-5 min-h-screen] lg:px-5">
       <h1 className="text-center font-semibold text-4xl font-lora">About Me</h1>
       <div className="my-10 border border-myRed flex flex-col md:flex-row items-center gap-5 lg:py-5 ">
-        <div className="flex bg-[#181818] justify-center items-center border border-myRed w-full md:w-1/2 overflow-hidden">
+        <div className="flex justify-center items-center border border-myRed w-full md:w-1/2 overflow-hidden">
           <img
             className="rounded-full hover:scale-125 cursor-pointer transition-transform duration-300 w-[500px] h-[500px]"
-            src={img1}
+            src={img}
             width={300}
             height={300}
             alt=""
