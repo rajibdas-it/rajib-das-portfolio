@@ -10,6 +10,7 @@ export default {
       curiousBlue: "#3498DB", //for button
       paleSky: "#707B7C", //for shadows
       myRed: "#800000"
+      // myRed: "#0ef"
     },
     fontFamily: {
       montserrat: ['Montserrat', 'sans - serif'],
