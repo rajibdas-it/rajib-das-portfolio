@@ -13,30 +13,43 @@ const Education = () => {
         Education & Work Experience
       </h1>
 
-      <div className="mt-20">
-        <div role="tablist" className="tabs tabs-boxed">
-          <a
-            role="tab"
-            className={`tab ${experience === "job" && "tab-active"}`}
-            onClick={() => setExperience("job")}
-          >
-            Work Experience
-          </a>
-          <a
-            role="tab"
-            className={`tab ${experience === "education" && "tab-active"}`}
-            onClick={() => setExperience("education")}
-          >
-            Educations
-          </a>
-          <a
-            role="tab"
-            className={`tab ${experience === "certification" && "tab-active"}`}
-            onClick={() => setExperience("certification")}
-          >
-            Certification & Trannings
-          </a>
+      <div className="lg:flex justify-end">
+        <div className="lg:w-7/12 lg:flex justify-end">
+          <div className="mt-8">
+            <div role="tablist" className="tabs tabs-lifted">
+              <a
+                role="tab"
+                className={`tab ${
+                  experience === "job" && "tab-active"
+                } text-[9px] md:text-[14px] font-semibold`}
+                onClick={() => setExperience("job")}
+              >
+                Work Experience
+              </a>
+              <a
+                role="tab"
+                className={`tab ${
+                  experience === "education" && "tab-active"
+                } text-[9px] md:text-[14px] font-semibold`}
+                onClick={() => setExperience("education")}
+              >
+                Educations
+              </a>
+              <a
+                role="tab"
+                className={`tab ${
+                  experience === "certification" && "tab-active"
+                } text-[9px] md:text-[14px] font-semibold`}
+                onClick={() => setExperience("certification")}
+              >
+                Certification & Trannings
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div className="mt-10">
         <div>
           {experience === "job" ? (
             <WorkExperiance />

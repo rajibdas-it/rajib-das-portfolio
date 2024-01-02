@@ -7,11 +7,13 @@ import Skills from "./components/Skills";
 const App = () => {
   return (
     <div className="bg-gradient-to-tr from-bgNavy to-bgBlack px-5 p-5 lg:px-32">
-      <Navbar />
-      <Header />
-      <About />
-      <Education />
-      <Skills />
+      <div className="max-w-[1490px] mx-auto">
+        <Navbar />
+        <Header />
+        <About />
+        <Education />
+        <Skills />
+      </div>
     </div>
   );
 };
