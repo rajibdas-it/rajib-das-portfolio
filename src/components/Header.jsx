@@ -8,9 +8,9 @@ import { TfiFacebook } from "react-icons/tfi";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 const Header = () => {
   return (
-    <div className="border border-myRed my-5 min-h-screen] lg:px-5">
-      <div className="my-10 border border-myRed flex flex-col md:flex-row gap-5 lg:py-5 ">
-        <div className="border border-myRed w-full md:w-1/2 space-y-6 lg:space-y-12">
+    <div className=" my-5 min-h-screen] lg:px-5">
+      <div className="my-10  flex flex-col md:flex-row gap-5 lg:py-5 ">
+        <div className=" w-full md:w-1/2 space-y-6 lg:space-y-12">
           <h1 className="text-4xl lg:text-[4rem] font-montserrat">
             Hi I'm{" "}
             <span className="font-montserrat font-bold text-myRed">
@@ -34,14 +34,16 @@ const Header = () => {
               cursor={false}
             />
           </h1>
-          <a
-            href="https://drive.google.com/file/d/1hss0OKKX9VURrHZYrxfjLs0Au3avDymG/view?usp=drive_link"
-            target="_blank"
-            rel="noreferrer"
-            className="btn bg-curiousBlue hover:bg-myRed transition-all duration-300 "
-          >
-            Download CV
-          </a>
+          <div className="mt-32  w-[127px] rounded-lg p-1 bg-gradient-to-tr from-pink-500 via-purple-500 to-blue-600  ">
+            <a
+              href="https://drive.google.com/file/d/1hss0OKKX9VURrHZYrxfjLs0Au3avDymG/view?usp=drive_link"
+              target="_blank"
+              rel="noreferrer"
+              className="btn border-none bg-black font-semibold hover:bg-myRed transition-all duration-300 "
+            >
+              Download CV
+            </a>
+          </div>
           <div className="flex flex-row gap-5 my-5">
             <a
               href="#"

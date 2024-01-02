@@ -1,4 +1,4 @@
-import logo from "../assets/rajib_das.png";
+import logo from "../assets/images/logo.png";
 const Navbar = () => {
   return (
     <div className="border border-myRed ">
