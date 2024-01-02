@@ -8,7 +8,7 @@ const About = () => {
       <div className="my-10 border border-myRed flex flex-col md:flex-row items-center gap-5 lg:py-5 ">
         <div className="flex justify-center items-center border border-myRed w-full md:w-1/2 overflow-hidden">
           <img
-            className="rounded-full hover:scale-125 cursor-pointer transition-transform duration-300 w-[500px] h-[500px]"
+            className="rounded-full hover:scale-125 cursor-pointer transition-transform duration-300 lg:w-[450px] lg:h-[450px]"
             src={img}
             width={300}
             height={300}
