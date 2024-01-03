@@ -59,30 +59,46 @@ const Skills = () => {
         </div>
         <div className="hidden lg:flex flex-wrap">
           <img
-            className="animate-bounce-slow"
+            className="animate-bounce-slow  w-[100px] h-[100px]"
             width={150}
             height={100}
             src="/src/assets/images/html.svg"
             alt=""
           />
           <img
+            className=" w-[100px] h-[100px]"
             width={150}
             height={100}
             src="/src/assets/images/tailwind.svg"
             alt=""
           />
           <img
-            className="animate-pulse"
+            className="animate-pulse  w-[100px] h-[100px]"
             width={150}
             height={100}
             src="/src/assets/images/js.svg"
             alt=""
           />
           <img
-            className="animate-spin-slow"
+            className="animate-spin-slow w-[100px] h-[100px]"
             width={150}
             height={100}
             src="/src/assets/images/react.svg"
+            alt=""
+          />
+          <img
+            className="w-[100px] h-[100px]"
+            src="/src/assets/images/redux.svg"
+            alt=""
+          />
+          <img
+            className="w-[100px] h-[100px]"
+            src="/src/assets/images/nextjs.svg"
+            alt=""
+          />
+          <img
+            className=" w-[100px] h-[100px]"
+            src="/src/assets/images/prisma.svg"
             alt=""
           />
         </div>
