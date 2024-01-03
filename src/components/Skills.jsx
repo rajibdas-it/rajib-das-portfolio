@@ -47,7 +47,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="mt-10 flex flex-col lg:flex-row">
+      <div className="mt-10 flex flex-col lg:flex-row gap-6">
         <div className="border border-red-600 lg:w-8/12">
           {experience === "job" ? (
             <FrontEndSkills />
@@ -66,7 +66,7 @@ const Skills = () => {
             alt=""
           />
           <img
-            className=" w-[100px] h-[100px]"
+            className="animate-ping w-[100px] h-[100px]"
             width={150}
             height={100}
             src="/src/assets/images/tailwind.svg"
@@ -99,6 +99,11 @@ const Skills = () => {
           <img
             className=" w-[100px] h-[100px]"
             src="/src/assets/images/prisma.svg"
+            alt=""
+          />
+          <img
+            className=" w-[100px] h-[100px]"
+            src="/src/assets/images/jest-new.svg"
             alt=""
           />
         </div>
