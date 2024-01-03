@@ -59,6 +59,7 @@ const Skills = () => {
         </div>
         <div className="hidden lg:flex flex-wrap">
           <img
+            className="animate-bounce-slow"
             width={150}
             height={100}
             src="/src/assets/images/html.svg"
@@ -71,13 +72,14 @@ const Skills = () => {
             alt=""
           />
           <img
+            className="animate-pulse"
             width={150}
             height={100}
             src="/src/assets/images/js.svg"
             alt=""
           />
           <img
-            className="motion-safe:animate-spin"
+            className="animate-spin-slow"
             width={150}
             height={100}
             src="/src/assets/images/react.svg"

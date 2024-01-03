@@ -16,7 +16,12 @@ export default {
       montserrat: ['Montserrat', 'sans - serif'],
       lora: ['Lora', 'serif']
     },
-    extend: {},
+    extend: {
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+        'bounce-slow': 'bounce 2s linear infinite',
+      }
+    },
   },
   plugins: [require("daisyui")],
 }
