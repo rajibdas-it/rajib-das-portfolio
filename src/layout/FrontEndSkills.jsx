@@ -16,40 +16,13 @@ const FrontEndSkills = () => {
   // };
 
   const colors = {
-    bar: {
-      hue: 32,
-      saturation: 50,
-      level: {
-        minimum: 30,
-        maximum: 70,
-      },
-    },
-    title: {
-      text: {
-        hue: 45,
-        saturation: {
-          minimum: 30,
-          maximum: 70,
-        },
-        level: 50,
-      },
-      background: {
-        hue: 70,
-        saturation: {
-          minimum: 30,
-          maximum: 70,
-        },
-        level: {
-          minimum: 0,
-          maximum: 50,
-        },
-      },
-    },
+    title: { background: "#580E84", text: "#fff" },
+    bar: "linear-gradient(to right,#6471F7, #905EF6, #D44DBC)",
   };
 
   return (
     <div>
-      <SkillBar skills={skills} height={10} colors={colors} />
+      <SkillBar skills={skills} height={15} colors={colors} />
     </div>
   );
 };

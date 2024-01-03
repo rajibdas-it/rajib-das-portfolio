@@ -1,5 +1,5 @@
 import { useState } from "react";
-import EducationInfo from "../layout/EducationInfo";
+
 import Trainning from "../layout/Trainning";
 import FrontEndSkills from "../layout/FrontEndSkills";
 import BackEndSkills from "../layout/BackEndSkills";
@@ -9,9 +9,7 @@ const Skills = () => {
 
   return (
     <div className="border border-myRed  lg:px-5 ">
-      <h1 className="text-4xl font-lora text-center">
-        Education & Work Experience
-      </h1>
+      <h1 className="text-4xl font-lora text-center mt-10">My Skills</h1>
 
       <div className="lg:flex justify-end">
         <div className="lg:w-7/12 lg:flex justify-end">
@@ -49,8 +47,8 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="mt-10">
-        <div>
+      <div className="mt-10 flex flex-col lg:flex-row">
+        <div className="border border-red-600 lg:w-8/12">
           {experience === "job" ? (
             <FrontEndSkills />
           ) : experience === "education" ? (
@@ -58,6 +56,33 @@ const Skills = () => {
           ) : (
             <Trainning />
           )}
+        </div>
+        <div className="hidden lg:flex flex-wrap">
+          <img
+            width={150}
+            height={100}
+            src="/src/assets/images/html.svg"
+            alt=""
+          />
+          <img
+            width={150}
+            height={100}
+            src="/src/assets/images/tailwind.svg"
+            alt=""
+          />
+          <img
+            width={150}
+            height={100}
+            src="/src/assets/images/js.svg"
+            alt=""
+          />
+          <img
+            className="motion-safe:animate-spin"
+            width={150}
+            height={100}
+            src="/src/assets/images/react.svg"
+            alt=""
+          />
         </div>
       </div>
     </div>
