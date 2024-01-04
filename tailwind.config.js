@@ -19,6 +19,7 @@ export default {
     extend: {
       animation: {
         'spin-slow': 'spin 3s linear infinite',
+        'skill-spin': 'spin 20s linear infinite',
         'bounce-slow': 'bounce 2s linear infinite',
       }
     },
