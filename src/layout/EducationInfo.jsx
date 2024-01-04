@@ -2,8 +2,8 @@ import img from "../assets/images/study.png";
 const EducationInfo = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12 justify-center gap-4">
-      <div className="border border-myRed lg:col-span-5">
-        <img src={img} alt="" height={300} />
+      <div className="w-full h-full lg:w-[350px] lg:h-[350px] mx-auto border border-myRed lg:col-span-5">
+        <img src={img} alt="" />
       </div>
       <div className="border border-myRed lg:col-span-7">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">

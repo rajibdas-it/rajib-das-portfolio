@@ -18,7 +18,6 @@ const MySkills = () => {
     { type: "GraphQL", level: 50 },
     { type: "AWS", level: 50 },
     { type: "Docker", level: 50 },
-    { type: "Crystal Report", level: 80 },
   ];
 
   // const colors = {
