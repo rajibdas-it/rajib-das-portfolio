@@ -60,17 +60,17 @@ const Skills = () => {
         {/* git hub icon add korte hobe  */}
         <div className="hidden lg:block pb-5">
           {/* animate-skill-spin */}
-          <div className="animate-skill-spin relative lg:w-[380px] lg:h-[380px] border-2 border-red-700 rounded-full mx-auto">
+          <div className="animate-skill-spin border-2 border-slate-700 relative lg:w-[390px] lg:h-[390px] rounded-full mx-auto">
             <div>
               <img
-                className="absolute top-20"
+                className="absolute top-[80px] left-[4px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/html.svg"
                 alt=""
               />
               <img
-                className="absolute top-[1.5rem] left-[2.5rem]"
+                className="absolute top-[29px] left-[48px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/css.svg"
@@ -84,42 +84,42 @@ const Skills = () => {
                 alt=""
               />
               <img
-                className="absolute top-[-1.5rem] left-[10.5rem]"
+                className="absolute -top-[21px] left-[160px]"
                 width={40}
                 height={40}
                 src="/src/assets/images/skills/tailwind.svg"
                 alt=""
               />
               <img
-                className="absolute top-[1rem] left-[16.5rem]"
+                className="absolute top-[-11px] left-[224px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/javascript.svg"
                 alt=""
               />
               <img
-                className="absolute top-[4rem] left-[18.8rem]"
-                width={35}
-                height={35}
+                className="absolute top-[15px] left-[284px]"
+                width={50}
+                height={50}
                 src="/src/assets/images/skills/TypeScript.svg"
                 alt=""
               />
               <img
-                className="absolute top-[8rem] -right-[15px]"
+                className="absolute top-[68px] right-[15px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/react.svg"
                 alt=""
               />
               <img
-                className="absolute top-[12rem] right-[-1rem]"
+                className="absolute top-[121px] right-[-11px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/redux.svg"
                 alt=""
               />
               <img
-                className="absolute top-[16rem] right-[0.75rem]"
+                className="absolute top-[198px] right-[-18px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/next-js-seeklogo.com 1.svg"
@@ -127,80 +127,74 @@ const Skills = () => {
               />
 
               <img
-                className="absolute top-[19rem] right-[4.5rem]"
+                className="absolute top-[265px] right-[5px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/node-js-icon 1.svg"
                 alt=""
               />
               <img
-                className="absolute top-[21rem] right-[9.5rem]"
+                className="absolute top-[319px] right-[42px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/express-js.svg"
                 alt=""
               />
               <img
-                className="absolute bottom-[-0.25rem] right-[14.5rem]"
+                className="absolute bottom-[-2px] right-[90px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/mongodb-icon 1.svg"
                 alt=""
               />
               <img
-                className="absolute bottom-[3rem] left-[1.50rem]"
+                className="absolute bottom-[-15px] left-[197px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/sql-icon 1.svg"
                 alt=""
               />
               <img
-                className="absolute top-[12.5rem] left-[-0.75rem]"
+                className="absolute bottom-[-15px] left-[126px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/postgresql-icon 1.svg"
                 alt=""
               />
               <img
-                className="absolute top-16 left-64"
+                className="absolute bottom-[13px] left-[66px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/GraphQL_Logo 1.svg"
                 alt=""
               />
               <img
-                className="absolute top-28 left-64"
+                className="absolute bottom-[56px] left-[24px]"
                 width={35}
                 height={35}
-                src="/src/assets/images/skills/aws-icon 1.svg"
+                src="/src/assets/images/skills/prisma.svg"
                 alt=""
               />
               <img
-                className="absolute top-56 left-36"
-                width={35}
-                height={35}
-                src="/src/assets/images/skills/docker-icon 1.svg"
-                alt=""
-              />
-              <img
-                className="absolute top-56 left-36"
-                width={35}
-                height={35}
-                src="/src/assets/images/skills/docker-icon 1.svg"
-                alt=""
-              />
-              <img
-                className="absolute top-64 left-36"
+                className="absolute bottom-[104px] left-[1px]"
                 width={35}
                 height={35}
                 src="/src/assets/images/skills/redis.svg"
                 alt=""
               />
+
               <img
-                className="absolute top-80 left-96"
+                className="absolute top-[196px] left-[-16px]"
                 width={35}
                 height={35}
-                src="/src/assets/images/skills/prisma.svg"
+                src="/src/assets/images/skills/docker-icon 1.svg"
+                alt=""
+              />
+              <img
+                className="absolute top-[143px] left-[-16px]"
+                width={35}
+                height={35}
+                src="/src/assets/images/skills/aws-icon 1.svg"
                 alt=""
               />
             </div>
