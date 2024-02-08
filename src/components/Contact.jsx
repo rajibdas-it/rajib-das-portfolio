@@ -6,7 +6,7 @@ const Contact = () => {
       <h1 className="text-center font-semibold text-4xl font-lora">
         Contact Me
         <div className="flex flex-col lg:flex-row justify-around">
-          <div>Social & Other</div>
+          <div>Get In Touch</div>
           <div>
             <Email />
           </div>
