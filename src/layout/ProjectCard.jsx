@@ -1,6 +1,9 @@
-const ProjectCard = () => {
+/* eslint-disable react/prop-types */
+import ModalBody from "./ModalBody";
+
+const ProjectCard = ({ project }) => {
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="card w-full bg-base-100 shadow-xl">
       <figure>
         <img
           src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -16,10 +19,13 @@ const ProjectCard = () => {
         <div className="card-actions justify-end">
           <button
             className="badge badge-outline"
-            onClick={() => document.getElementById("my_modal_3").showModal()}
+            onClick={() =>
+              document.getElementById(`my_modal_${project.id}`).showModal()
+            }
           >
-            open modal
+            Details
           </button>
+          <ModalBody project={project} />
         </div>
       </div>
     </div>
