@@ -2,7 +2,7 @@
 import { FaCheck, FaSlackHash } from "react-icons/fa";
 
 const ProjectFeatures = ({ features }) => {
-  console.log(features);
+  // console.log(features);
   return (
     <div>
       <h3 className="text-secondary text-2xl font-bold">
