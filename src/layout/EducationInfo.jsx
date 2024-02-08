@@ -2,10 +2,10 @@ import img from "../assets/images/study.png";
 const EducationInfo = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12 justify-center gap-4">
-      <div className="w-full h-full lg:w-[350px] lg:h-[350px] mx-auto border border-myRed lg:col-span-5">
+      <div className="w-full h-full lg:w-[350px] lg:h-[350px] mx-auto lg:col-span-5">
         <img src={img} alt="" />
       </div>
-      <div className="border border-myRed lg:col-span-7">
+      <div className="lg:col-span-7">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
             <div className="timeline-middle">
@@ -83,7 +83,7 @@ const EducationInfo = () => {
             <hr />
           </li>
           <li>
-            <hr className="border-5 border-myRed" />
+            <hr className="" />
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +105,7 @@ const EducationInfo = () => {
               </div>
               Badda Alatunessa High School
             </div>
-            <hr className="border-y-2 border-y-myRed" />
+            <hr />
           </li>
         </ul>
       </div>

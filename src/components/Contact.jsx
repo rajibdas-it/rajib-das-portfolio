@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="border border-myRed my-5 lg:px-5">
+    <div className=" my-5 lg:px-5">
       <h1 className="text-center my-10 font-semibold text-4xl font-lora">
         Contact Me
       </h1>

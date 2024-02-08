@@ -49,7 +49,7 @@ const Header = () => {
             </a>
           </div>
         </div>
-        <div className="border border-myRed p-3 w-full md:w-1/2">
+        <div className="p-3 w-full md:w-1/2">
           <img className="w-full lg:w-3/5 lg:h-[300px]" src={img} alt="" />
         </div>
       </div>

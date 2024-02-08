@@ -5,11 +5,11 @@ import img from "../assets/images/job.png";
 const WorkExperiance = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12 justify-center gap-4">
-      <div className="w-full h-full lg:w-[350px] lg:h-[350px] mx-auto border border-myRed lg:col-span-5">
+      <div className="w-full h-full lg:w-[350px] lg:h-[350px] mx-auto lg:col-span-5">
         <img src={img} alt="" height={300} />
       </div>
 
-      <div className="border border-myRed lg:col-span-7">
+      <div className="lg:col-span-7">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
             <div className="timeline-middle">

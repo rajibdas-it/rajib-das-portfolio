@@ -1,6 +1,6 @@
 const SkillsImg = () => {
   return (
-    <div className="animate-skill-spin border-2 border-slate-700 relative lg:w-[390px] lg:h-[390px] rounded-full mx-auto">
+    <div className="animate-skill-spin  relative lg:w-[390px] lg:h-[390px] rounded-full mx-auto">
       <div>
         <img
           className="absolute top-[80px] left-[4px]"

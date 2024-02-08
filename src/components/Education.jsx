@@ -8,7 +8,7 @@ const Education = () => {
   const [experience, setExperience] = useState("job");
 
   return (
-    <div className="border border-myRed  lg:px-5 ">
+    <div className="lg:px-5 ">
       <h1 className="text-4xl font-lora text-center">
         Education & Work Experience
       </h1>
