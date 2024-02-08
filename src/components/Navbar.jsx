@@ -1,10 +1,11 @@
-import logo from "../assets/images/logo.png";
 const Navbar = () => {
   return (
     <div className="border border-myRed ">
       <div className="flex justify-between items-center lg:px-5">
-        <div className="font-lora">
-          <img width={150} src={logo} alt="" />
+        <div>
+          <p className="text-4xl font-lora italic font-extrabold ml-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            Rajib Das
+          </p>
         </div>
 
         <nav className="hidden lg:flex gap-5">

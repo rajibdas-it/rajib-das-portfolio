@@ -3,9 +3,6 @@
 import { TypeAnimation } from "react-type-animation";
 import img from "../assets/images/hero.png";
 
-import { TfiFacebook } from "react-icons/tfi";
-
-import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 const Header = () => {
   return (
     <div className=" my-5 min-h-screen] lg:px-5">
@@ -49,33 +46,6 @@ const Header = () => {
               <span className="block bg-gradient-to-tr from-[#001F3F] to-[#000000] px-5 py-2 rounded-full hover:bg-transparent transition-all duration-200">
                 Download CV
               </span>
-            </a>
-          </div>
-
-          <div className="flex flex-row gap-5 my-5">
-            <a
-              href="#"
-              className="h-[40px] w-[40px] border border-[#0ef]   hover:bg-[#0ef]  rounded-full"
-            >
-              {" "}
-              <TfiFacebook
-                size={24}
-                className="text-[#0ef] hover:cursor-pointer  transition-all duration-200"
-              />
-            </a>
-            <a href="">
-              {" "}
-              <FaLinkedin
-                size={24}
-                className=" hover:text-curiousBlue cursor-pointer transition-all duration-200"
-              />
-            </a>
-            <a href="">
-              {" "}
-              <FaGithubSquare
-                size={24}
-                className="hover:text-curiousBlue cursor-pointer transition-all duration-200"
-              />
             </a>
           </div>
         </div>

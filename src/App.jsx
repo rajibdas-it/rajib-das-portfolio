@@ -23,10 +23,10 @@ const App = () => {
           <Services />
           <Projects />
           <Contact />
+          <Footer />
         </div>
         <ToastContainer position="top-center" />
       </div>
-      <Footer />
     </>
   );
 };
