@@ -31,46 +31,42 @@ const Email = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         <label className="form-control w-full ">
           <div className="label">
-            <span className="label-text">First Name</span>
+            <span className="label-text font-semibold">First Name</span>
           </div>
           <input
             type="text"
             name="user_firstName"
-            placeholder="Type here"
             className="input input-bordered w-full "
           />
         </label>
         <label className="form-control w-full ">
           <div className="label">
-            <span className="label-text">Last Name</span>
+            <span className="label-text font-semibold">Last Name</span>
           </div>
           <input
             type="text"
             name="user_lastName"
-            placeholder="Type here"
             className="input input-bordered w-full "
           />
         </label>
       </div>
       <label className="form-control w-full">
         <div className="label">
-          <span className="label-text">Email</span>
+          <span className="label-text font-semibold">Email</span>
         </div>
         <input
           type="email"
           name="user_email"
-          placeholder="type your email here"
           className="input input-bordered w-full"
         />
       </label>
       <label className="form-control">
         <div className="label">
-          <span className="label-text">Messages</span>
+          <span className="label-text font-semibold">Messages</span>
         </div>
         <textarea
           name="message"
           className="textarea textarea-bordered h-24"
-          placeholder="type your message here..."
         ></textarea>
       </label>
       <button
