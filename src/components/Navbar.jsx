@@ -6,7 +6,8 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <header className="">
+    // className="shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+    <header>
       <section className="flex justify-between items-center lg:px-5">
         <div>
           <p className="text-4xl font-lora italic font-extrabold ml-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
