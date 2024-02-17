@@ -2,6 +2,7 @@ import { useState } from "react";
 import WorkExperiance from "../layout/WorkExperiance";
 import EducationInfo from "../layout/EducationInfo";
 import Trainning from "../layout/Trainning";
+import Title from "../layout/Title";
 
 /* eslint-disable react/no-unescaped-entities */
 const Education = () => {
@@ -9,9 +10,7 @@ const Education = () => {
 
   return (
     <div className="lg:px-5 ">
-      <h1 className="text-4xl font-lora text-center">
-        Education & Work Experience
-      </h1>
+      <Title title="Education & Work Experience" />
 
       <div className="lg:flex justify-end">
         <div className="lg:w-7/12 lg:flex justify-end">

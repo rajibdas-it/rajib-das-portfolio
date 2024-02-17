@@ -2,13 +2,12 @@ import Email from "../layout/Email";
 
 import { MdOutlinePhoneAndroid, MdEmail } from "react-icons/md";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import Title from "../layout/Title";
 
 const Contact = () => {
   return (
     <div className=" my-5 lg:px-5">
-      <h1 className="text-center my-10 font-semibold text-4xl font-lora">
-        Contact Me
-      </h1>
+      <Title title="Contact Me" />
       <div className="flex flex-col gap-6 lg:gap-0 lg:flex-row justify-around">
         <div className="flex flex-col justify-center items-center lg:flex-none lg:justify-start lg:items-start ">
           <h1 className="text-4xl font-bold italic mb-5">Get In Touch</h1>
