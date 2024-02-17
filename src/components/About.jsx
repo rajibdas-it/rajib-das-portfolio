@@ -1,37 +1,36 @@
 // import img1 from "../assets/images/rajib.jpeg";
 import img from "../assets/images/about.png";
+import AboutMeText from "../layout/AboutMeText";
+import Title from "../layout/Title";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <div className="my-5  lg:px-5">
-      <h1 className="text-center font-semibold text-4xl font-lora">About Me</h1>
+      <Title title="About Me" />
       <div className="my-10 flex flex-col md:flex-row items-center gap-5 lg:py-5 ">
-        <div className="flex justify-center items-center w-full md:w-1/2 overflow-hidden">
+        <motion.div
+          initial={{ opacity: 0, x: "-100vh" }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ type: "spring", bounce: 0.5, duration: 3 }}
+          className="flex justify-center items-center w-full md:w-1/2 overflow-hidden"
+        >
           <img
-            className="rounded-full hover:scale-125 cursor-pointer transition-transform duration-300 lg:w-[450px] lg:h-[450px]"
+            className="rounded-full cursor-pointer lg:w-[450px] lg:h-[450px]"
             src={img}
             width={300}
             height={300}
             alt=""
           />
-        </div>
-        <div className="w-full md:w-1/2 ">
-          <p className="text-center lg:text-justify text-xl font-lora">
-            A Devoted Web Developer professional, eager to flourish career in
-            the industry following the proper engineering process and meeting
-            organizational goals consistently. Seeking a new challenge as a MERN
-            Stack Developer, with a focus on creating dynamic and scalable web
-            applications that meet end-user needs. Experienced software
-            developer with over two years of hands-on experience in developing
-            in-house ERP software with DreamApps ERP++, creating reports with
-            Crystal Report, and providing ERP related support to users. As a
-            proactive learner, I stay up-to-date with the latest technologies,
-            tools, and trends in software development, and I am continuously
-            expanding my skillset. My commitment to delivering high-quality
-            software solutions and providing exceptional support to end-users
-            will ensure I am a valuable asset for organization.
-          </p>
-        </div>
+        </motion.div>
+        <motion.div
+          className="w-full md:w-1/2"
+          initial={{ opacity: 0, x: "100vh" }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+        >
+          <AboutMeText />
+        </motion.div>
       </div>
     </div>
   );

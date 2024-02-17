@@ -80,6 +80,7 @@ const Contact = () => {
           <Email />
         </div>
       </div>
+      <hr className="mt-10 border-purple-500/15" />
     </div>
   );
 };
